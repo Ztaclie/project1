@@ -1,10 +1,8 @@
 const App = () => {
-    const name = "Samantha";
-    const age = 25;
-
+    // in props strings with "" numbers with {}
     return (
         <div className="App">
-            <p>My Name is {name}, my age is {age}</p>
+            <input type="number" min={5}/>
         </div>
     )
 };
